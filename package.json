@@ -1,0 +1,24 @@
+{
+  "name": "planmill-oauth2.0",
+  "version": "1.0.0",
+  "description": "PlanMill OAuth2.0 authentication and API handler",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "npm version patch & npm publish",
+    "minor": "npm version minor & npm publish",
+    "major": "npm version major & npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/planmill/planmill-oauth2.0.git"
+  },
+  "keywords": [],
+  "author": "Planmill <info@planmill.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "passport": "^0.6.0",
+    "passport-oauth2": "^1.6.0"
+  }
+}
